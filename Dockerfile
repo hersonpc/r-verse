@@ -23,7 +23,7 @@ RUN apt-get -y update && apt-get install -y --install-suggests \
 RUN mkdir -p /r
 
 ## copy files ----
-COPY ./01_install_packages.R /r/install_packages.R
+COPY ./requirements.R /r/requirements.R
 
 ## install R-packages ----
-RUN Rscript /r/install_packages.R
+RUN Rscript /r/requirements.R

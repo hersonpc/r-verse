@@ -1,17 +1,20 @@
 install.packages("rJava")
 install.packages("RJDBC")
 
-
-install.packages("tidyquant")
-install.packages("jsonlite")
 install.packages("RODBC")
 install.packages("RMySQL")
+install.packages("jsonlite")
+
+install.packages("RCurl")
+install.packages("rvest")
+install.packages("plumber")
+
+install.packages("tidyquant")
 install.packages("clock")
 install.packages("readxl")
 install.packages("reshape2")
 install.packages("rpivotTable")
-install.packages("plumber")
-install.packages("RCurl")
+
 install.packages("blastula")
 
 install.packages("ggplot2")
