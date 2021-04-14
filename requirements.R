@@ -32,6 +32,7 @@ install.packages("shinyBS")
 install.packages("shinythemes")
 install.packages("shinydashboard")
 install.packages("shinycssloaders")
+install.packages("shinyWidgets")
 
 install.packages("flexdashboard")
 
