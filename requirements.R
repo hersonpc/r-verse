@@ -37,3 +37,7 @@ install.packages("shinyWidgets")
 install.packages("flexdashboard")
 
 install.packages("telegram.bot")
+
+
+# Update all available packages, without prompts for permission
+update.packages(ask = FALSE)
